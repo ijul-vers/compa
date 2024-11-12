@@ -9,20 +9,14 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "Tentang Kami",
     path: "/about",
-    newTab: false,
-  },
-  {
-    id: 33,
-    title: "Kegiatan",
-    path: "/blog",
     newTab: false,
   },
   {
     id: 3,
     title: "Kontak",
-    path: "/contact",
+    path: "/blog",
     newTab: false,
   },
   {
