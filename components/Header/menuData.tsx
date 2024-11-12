@@ -27,13 +27,13 @@ const menuData: Menu[] = [
       {
         id: 1,
         title: "Whatsapp",
-        path: "/about",
+        path: "https://wa.me/6282138402147",
         newTab: false,
       },
       {
         id: 2,
         title: "Pengaduan",
-        path: "/about",
+        path: "https://forms.gle/pgPChUz6iQB5MReH8T",
         newTab: false,
       },
     ],
