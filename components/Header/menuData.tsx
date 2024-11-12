@@ -15,9 +15,28 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Kontak",
-    path: "https://wa.me/6282138402147",
+    title: "Kegiatan",
+    path: "/blog",
     newTab: false,
   },
+  {
+    id: 4,
+    title: "Kontak",
+    newTab: false,
+    submenu: [
+      {
+        id: 1,
+        title: "Whatsapp",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 2,
+        title: "Pengaduan",
+        path: "/about",
+        newTab: false,
+      },
+    ],
+  }
 ];
 export default menuData;
