@@ -9,20 +9,39 @@ const Hero = () => {
       >
         <div className="container">
         <div className="-mx-4 flex flex-wrap justify-start">
-    <div className="w-full px-4">
-      <div
-        className="wow fadeInUp max-w-[800px] text-left"
-        data-wow-delay=".2s"
-      >
-        <h1 className="text-left my-5 mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-          Free and Open-Source Next.js Template for Startup & SaaS
-        </h1>
-        <p className="mb-12 text-base font-medium leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-          Startup is a free Next.js template for startups and SaaS business websites. It comes with all the essential pages, components, and sections you need to launch a complete business website, built with Next 13.x and Tailwind CSS.
-        </p>
-      </div>
-    </div>
-  </div>
+          <div className="w-full px-4">
+            <div
+              className="wow fadeInUp max-w-[800px] text-left"
+              data-wow-delay=".2s"
+            >
+              <h1
+                className="text-left my-1 mb-1 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight capitalize"
+                  style={{
+                    width: '750px',
+                    color: '#F3CF02',
+                  }}
+              >
+                DPM KM Universitas Muhammadiyah Purwokerto
+              </h1>
+            </div>
+            <div
+              className="wow fadeInUp max-w-[800px] text-left"
+              data-wow-delay=".2s"
+            >
+              <h1
+                className="text-left my-1 mb-1 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight capitalize"
+                style={{
+                  width: '750px',
+                  height: '129px',
+                  color: '#FFFFFF',
+                  fontSize: '24px',
+                }}
+              >
+                Parlemen Aspirasi Mahasiswa
+              </h1>
+            </div>
+          </div>
+        </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
