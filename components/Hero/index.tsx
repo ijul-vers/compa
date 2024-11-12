@@ -32,7 +32,6 @@ const Hero = () => {
                 className="text-left my-1 mb-1 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight capitalize"
                 style={{
                   width: '750px',
-                  height: '129px',
                   color: '#FFFFFF',
                   fontSize: '24px',
                 }}
