@@ -16,7 +16,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "Kontak",
-    path: "/blog",
+    path: "https://wa.me/6282138402147",
     newTab: false,
   },
 ];
