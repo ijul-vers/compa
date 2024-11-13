@@ -11,9 +11,11 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="https://images.unsplash.com/photo-1546957221-37816b007052?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="about image"
-                fill
+                layout="responsive"
+                width={1770}
+                height={1180}
               />
             </div>
           </div>
@@ -24,10 +26,7 @@ const AboutSectionTwo = () => {
                   VISI
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Menjadi organisasi yang inovatif dan berkelanjutan dalam
-                  menciptakan dampak positif bagi masyarakat serta lingkungan,
-                  dengan mengedepankan integritas, profesionalisme, dan
-                  kolaborasi.
+                 Terwujudnya Dewan Perwakilan Mahasiswa Universitas Muhammadiyah Purwokerto yang Representatif, Berintegritas, dan Berwawasan Kebangsaan
                 </p>
               </div>
               <div className="mb-9">
@@ -36,21 +35,16 @@ const AboutSectionTwo = () => {
                 </h3>
                 <ol className="list-decimal text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   <li>
-                    Memberdayakan anggota untuk terus berkembang secara
-                    profesional dan pribadi melalui pelatihan dan pengembangan
-                    kapasitas.
+                    Memberdayakan anggota untuk terus berkembang secara profesional dan pribadi melalui pelatihan dan pengembangan kapasitas.
                   </li>
                   <li>
-                    Mengimplementasikan program-program yang berdampak positif
-                    pada kesejahteraan sosial, ekonomi, dan lingkungan.
+                    Mengimplementasikan program-program yang berdampak positif pada kesejahteraan sosial, ekonomi, dan lingkungan.
                   </li>
                   <li>
-                    Menjalin kemitraan strategis dengan berbagai pemangku
-                    kepentingan guna menciptakan solusi berkelanjutan.
+                    Menjalin kemitraan strategis dengan berbagai pemangku kepentingan guna menciptakan solusi berkelanjutan.
                   </li>
                   <li>
-                    Mendorong budaya inovasi dan kolaborasi untuk mencapai
-                    tujuan jangka panjang organisasi.
+                    Mendorong budaya inovasi dan kolaborasi untuk mencapai tujuan jangka panjang organisasi.
                   </li>
                 </ol>
               </div>
