@@ -11,14 +11,14 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 bg-cover bg-center
- bg-fixed overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[415px] 2xl:pb-[200px] h-screen"
+        className="relative z-10 bg-cover bg-center bg-fixed overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[415px] 2xl:pb-[200px] h-screen"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1546957221-37816b007052?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')", 
+          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1546957221-37816b007052?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`, 
           backgroundSize: 'cover', 
           backgroundPosition: 'center',
         }}
       >
+
         <div className="container">
           <div className="relative z-20 -mx-4 flex flex-wrap justify-start absolute top-[-100px] left-[99px]"> 
             <div className="w-full px-4">
