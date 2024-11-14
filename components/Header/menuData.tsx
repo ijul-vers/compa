@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       {
         id: 2,
         title: "Pengaduan",
-        path: "https://forms.gle/pgPChUz6iQB5MReH8T",
+        path: "https://forms.gle/KMJCRnAyigGZijYc6",
         newTab: false,
       },
     ],
