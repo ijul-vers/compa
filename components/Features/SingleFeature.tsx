@@ -19,6 +19,5 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
     </div>
   );
 };
-
 export default SingleFeature;
 
