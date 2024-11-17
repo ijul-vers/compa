@@ -11,12 +11,15 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Pengurus Dewan Perwakilan Mahasiswa"
+            paragraph="Menetapkan ulang nama-nama dibawah ini sebagai Pengurus
+            Dewan Perwakilan Mahasiswa Universitas Muhammadiyah Purwokerto
+            Periode 2023/2024."
+            img="/path/to/your/image.jpg" // Tambahkan properti img di sini
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-5 gap-2">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

@@ -1,18 +1,19 @@
 import { Feature } from "@/types/feature";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+  const { img, nama, paragraph } = feature;
+
   return (
-    <div className="w-full">
-      <div className="wow fadeInUp" data-wow-delay=".15s">
-        <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-          {icon}
-        </div>
-        <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-          {title}
+    <div className="mb-12 "> {/* Menggunakan mb-12 */}
+      <div className="flex h-21 w-21 items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary"> {/* Menggunakan h-12 w-12 */}
+        {img} 
+      </div>
+      <div className="ml-3"> {/* Bungkus nama dan paragraph, tambahkan margin kiri */}
+        <h3 className="text-base font-bold text-black dark:text-white sm:text-lg lg:text-base xl:text-lg">
+          {nama}
         </h3>
-        <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
-          {paragraph}
+        <p className="text-sm text-body-color"> 
+          {paragraph} 
         </p>
       </div>
     </div>
@@ -20,3 +21,4 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
 };
 
 export default SingleFeature;
+

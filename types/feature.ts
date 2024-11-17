@@ -1,6 +1,8 @@
+import React from 'react';
+
 export type Feature = {
   id: number;
-  icon: JSX.Element;
-  title: string;
+  img: React.ReactNode; 
+  nama: string;
   paragraph: string;
 };
