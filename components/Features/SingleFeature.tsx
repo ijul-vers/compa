@@ -13,7 +13,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           {nama}
         </h3>
         <p className="text-sm text-body-color"> 
-          {paragraph} 
+          {paragraph}
         </p>
       </div>
     </div>
