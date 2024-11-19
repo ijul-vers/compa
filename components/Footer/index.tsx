@@ -19,14 +19,14 @@ const Footer = () => {
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
-                  />
+                  /> {/* gambar footer bagian kiri start up */}
                   <Image
                     src="images/logo/logo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  />  {/* gambar footer bagian kiri start up */}
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -143,9 +142,6 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
-                <div>
-                  <ThemeToggler />
-                </div>
               </div>
             </div>
           </div>
